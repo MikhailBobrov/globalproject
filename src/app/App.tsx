@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
 import "./styles/index.scss";
 // import { useTheme } from "providers/ThemeProvider/lib/useTheme";
 import { classNames } from "shared/lib/classNames/classNames";
 import { useTheme } from "./providers/ThemeProvider";
 import { AppRouter } from "shared/config/router";
 import { Navbar } from "widgets/Navbar";
+import { Sidebar } from "widgets/Sidebar";
 
 export const App = () => {
   const { theme } = useTheme();
@@ -12,7 +12,10 @@ export const App = () => {
   return (
     <div className={classNames("app", {}, [theme])}>
       <Navbar />
-      <AppRouter />
+      <div className="content-page">
+        <Sidebar />
+        <AppRouter />
+      </div>
     </div>
   );
 };
