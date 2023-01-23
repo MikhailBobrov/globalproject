@@ -1,7 +1,14 @@
 {
-  "i18n-ally.localesPaths": ["public/locales", "src/shared/config/i18n"]
-  // "editor.codeActionsOnSave": {
-  //   "source.fixAll.eslint": true
-  // },
-  // "eslint.validate": ["javascript"]
+    "i18n-ally.localesPaths": ["public/locales", "src/shared/config/i18n"],
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "stylelint.enable": true,
+    "stylelint.validate": ["css", "scss"],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": true
+    }
 }

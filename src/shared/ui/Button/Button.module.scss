@@ -1,21 +1,21 @@
 .Button {
-  cursor: pointer;
-  color: var(--primary-color);
+    cursor: pointer;
+    color: var(--primary-color);
 }
 
 .clear {
-  padding: 0;
-  background: none;
-  border: none;
-  outline: none;
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
 
-  // отвечает за анимацию
-  stroke-width: 1;
-  stroke-dasharray: 151;
-  stroke-dashoffset: 151;
-  transition: all 1s ease-in-out;
+    // отвечает за анимацию
+    stroke-width: 1;
+    stroke-dasharray: 151;
+    stroke-dashoffset: 151;
+    transition: all 1s ease-in-out;
 }
 
 .clear:hover {
-  stroke-dashoffset: 0;
+    stroke-dashoffset: 0;
 }

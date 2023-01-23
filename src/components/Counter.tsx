@@ -13,7 +13,7 @@ export const Counter = () => {
         <div className={classes.btn}>
             <h1>{count}</h1>
             <button type="button" onClick={increment}>
-                increment
+                {/* increment */}
             </button>
         </div>
     );

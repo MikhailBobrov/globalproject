@@ -1,6 +1,9 @@
 {
-  "Тестовый пример": "Testfall",
-  "Перевод": "Übersetzung",
-  "Главная страница": "Hauptseite",
-  "Язык": "Deutsch"
+    "Тестовый пример": "Testfall",
+    "Перевод": "Übersetzung",
+    "Главная страница": "Hauptseite",
+    "Язык": "Deutsch",
+    "Главная": "die Homepage",
+    "О сайте": "Über die Website",
+    "Переключатель": "Schalter"
 }
